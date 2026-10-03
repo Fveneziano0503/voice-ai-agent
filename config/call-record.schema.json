@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Public call record example",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "callOutcome": {
+      "type": "string",
+      "enum": [
+        "testConversation",
+        "receptionistOnly",
+        "informationRequested",
+        "followUpRequested",
+        "meetingRequested",
+        "meetingConfirmed",
+        "notInterested",
+        "doNotContact",
+        "hostileEnded",
+        "incomplete"
+      ]
+    },
+    "conversationSummary": {
+      "type": "string"
+    },
+    "organizationName": {
+      "type": "string"
+    },
+    "businessChallenges": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "productsPresented": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "productsInterestedIn": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "permissionToEmail": {
+      "type": "string",
+      "enum": [
+        "explicitYes",
+        "explicitNo",
+        "notAsked"
+      ]
+    },
+    "meetingStatus": {
+      "type": "string",
+      "enum": [
+        "notDiscussed",
+        "requested",
+        "confirmedByTool",
+        "notBooked"
+      ]
+    },
+    "doNotContact": {
+      "type": "string",
+      "enum": [
+        "explicitlyRequested",
+        "notMentioned"
+      ]
+    },
+    "nextAction": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "callOutcome",
+    "conversationSummary"
+  ]
+}

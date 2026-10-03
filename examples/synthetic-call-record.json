@@ -1,0 +1,18 @@
+{
+  "callOutcome": "informationRequested",
+  "conversationSummary": "Synthetic example: a prospect described manual scheduling work and asked for an overview by email. No meeting was booked and no message was sent.",
+  "organizationName": "Example Manufacturing",
+  "businessChallenges": [
+    "Manual scheduling takes too much time"
+  ],
+  "productsPresented": [
+    "Scheduling assistant"
+  ],
+  "productsInterestedIn": [
+    "Scheduling assistant"
+  ],
+  "permissionToEmail": "explicitYes",
+  "meetingStatus": "notBooked",
+  "doNotContact": "notMentioned",
+  "nextAction": "Human review before sending requested information"
+}
