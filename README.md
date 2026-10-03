@@ -1,6 +1,6 @@
-# Voice AI Agent — Victoria / Revora AI
+# Voice AI Agent — Victoria — Business Voice Assistant
 
-A portfolio case study of a conversational business assistant that introduces Revora AI, listens to questions, routes through receptionists, qualifies business needs, and structures call information for human review.
+A portfolio case study of a conversational business assistant that introduces the business, listens to questions, routes through receptionists, qualifies business needs, and structures call information for human review.
 
 **Created by Federico Veneziano · Project #3**
 
